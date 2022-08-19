@@ -11,10 +11,12 @@ f.close()
 
 
 #open  a file for reading it
-'''Note: This file are in the same folder as the python code otherwise
-the absolute location should be typed instead of the file name '''
-
 '''
+Note: This file are in the same folder as the python code otherwise
+the absolute location should be typed instead of the file name
+'''
+
+
 #1
 print("Opening the First File ...")
 f = open("demofile.txt", "r") #opening the file in read mode
@@ -32,7 +34,6 @@ print("Opening the Third File ...")
 f = open("C:/Users/Matrix_Leo/Desktop/URLs/Mixed URLs/mixed_urls.txt", "r")
 print(f.read())
 
-'''
 #Deleting Files
 if os.path.exists("demofile.txt"): #check if file exists
   os.remove("demofile3.txt") #remove it
